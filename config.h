@@ -27,11 +27,13 @@ static const char *colors[][3]      = {
 static const char *tags[] = { "", "", "", "", "", "", "7", "8", "9" };
 
 /* launcher commands (They must be NULL terminated) */
-static const char* surf[]      = { "surf", "duckduckgo.com", NULL };
+static const char* vscode_launcer[]      = { "code", NULL };
+static const char* firefox_launcer[]      = { "firefox", NULL };
 
 static const Launcher launchers[] = {
        /* command       name to display */
-	{ surf,         "surf" },
+	{ vscode_launcer,  "" },
+	{ firefox_launcer, "" },
 };
 
 static const Rule rules[] = {
